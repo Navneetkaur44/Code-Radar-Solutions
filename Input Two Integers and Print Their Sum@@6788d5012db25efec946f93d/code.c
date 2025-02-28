@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int num1, num2, sum;
-    if scanf("%d %d", &num1, &num2){
-        sum = num1 + num2;
+    int a,b, sum;
+    if scanf("%d %d", &a, &b){
+        sum = a + b;
         printf("sum=%d", sum);
     } else {
         printf("Invalid input");
