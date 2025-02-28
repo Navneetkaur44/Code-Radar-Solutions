@@ -2,7 +2,6 @@
 int main() {
     int num1, num2, sum;
     if (scanf("%d %d", &num1, &num2) == 2) {
-     
         sum = num1 + num2;
         printf("sum=%d\n", sum);
     } else {
