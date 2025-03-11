@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
     int num;
-    printf("enter an integer: ");
+    printf("Enter an integer: ");
     scanf("%d", &num);
-    printf("hexadecimal: %X\n", num);
-    printf("octal: %0\n", num);
+    printf("Hexadecimal: %X\n", num);
+    printf("Octal: %0\n", num);
     return 0;
 }
