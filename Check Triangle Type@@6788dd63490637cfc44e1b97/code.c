@@ -5,7 +5,7 @@ int mai(){
     if(a==b && b==c)
         printf("Eqilateral");
     else if(a==b || b==c || c==a)
-        printf("Isoceles");
+        printf("Isosceles");
     else
         printf("Scalene");
     return 0;
